@@ -23,6 +23,13 @@ const Menu = ({ siteTitle }) => (
           >
             {`Contact Us`}
           </Link>
+
+          <Link
+            to="/blog/"
+            className="navSubLinkButton"
+          >
+            {`Blog`}
+          </Link>
         </nav>
         <button
           class="btnPrimary"
@@ -32,7 +39,7 @@ const Menu = ({ siteTitle }) => (
           <span class="sr-only">Open user menu</span>
           <img
             class="w-8 h-8 rounded-full "
-            src="https://res.cloudinary.com/the-unicorns-feed/image/upload/v1606463246/avatars/mke2_wnzylr.png"
+            src="https://unavatar.now.sh/github/Neeraj1005?fallback=https://s3.amazonaws.com/laracasts/images/forum/avatars/default-avatar-29.png"
             alt=""
           />
         </button>

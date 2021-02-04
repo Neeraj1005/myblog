@@ -7,6 +7,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,6 +23,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
