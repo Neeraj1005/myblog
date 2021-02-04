@@ -36,6 +36,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
       .
     </p>
     <Link to="/">Go back to the homepage</Link>
+    <Link to="/404">404</Link>
   </Layout>
 )
 
