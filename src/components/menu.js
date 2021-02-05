@@ -16,6 +16,12 @@ const Menu = ({ siteTitle }) => (
           >
             {`About Us`}
           </Link>
+
+          <Link
+            to="/wp-post/" className="navSubLinkButton"
+          >
+            {`WordPress`}
+          </Link>
           
           <Link
             to="/page-2/"

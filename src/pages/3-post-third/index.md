@@ -1,6 +1,6 @@
 ---
 path: "/post-third"
-date: "2021-02-08"
+date: "2021-01-08"
 title: "My third Gatsby Post"
 author: "Neeraj1005"
 profile_url: "https://unavatar.now.sh/github/Neeraj1005?fallback=https://s3.amazonaws.com/laracasts/images/forum/avatars/default-avatar-29.png"
