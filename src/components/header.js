@@ -15,7 +15,7 @@ const Header = ({ children }) => {
 
   return (
     <>
-      <header class="text-gray-700 bg-white border-t border-b body-font">
+      <header className="text-gray-700 bg-white border-t border-b body-font">
         <Menu siteTitle={data.site.siteMetadata?.title || `Title`} />
       </header>
     </>

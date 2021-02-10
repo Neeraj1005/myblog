@@ -1,8 +1,8 @@
 ---
-path: "/post-one"
-date: "2021-02-06"
-title: "My First Gatsby Post"
-author: "Neeraj1005"
+path: "/use-staticquery-in-component-gatsby"
+date: "2021-02-10"
+title: "How to use StaticQuery in Gatsby"
+author: "Neeraj"
 profile_url: "https://unavatar.now.sh/github/Neeraj1005?fallback=https://s3.amazonaws.com/laracasts/images/forum/avatars/default-avatar-29.png"
 ---
 

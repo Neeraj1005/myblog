@@ -1,8 +1,8 @@
 ---
-path: "/post-fourth"
-date: "2021-02-06"
-title: "My Fourth Gatsby Post"
-author: "Neeraj1005"
+path: "/install-your-first-gatsby-project"
+date: "2021-02-10"
+title: "Install your first gatsby project"
+author: "Neeraj"
 profile_url: "https://unavatar.now.sh/github/Neeraj1005?fallback=https://s3.amazonaws.com/laracasts/images/forum/avatars/default-avatar-29.png"
 ---
 
