@@ -9,12 +9,15 @@
 }
 
 .navSubLinkButton {
-    @apply mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800;
+    @apply mr-5 text-sm font-semibold text-gray-600 hover:text-blue-800;
 }
 
 .headerLogo {
     @apply flex items-center w-40 mb-4 font-medium text-gray-900 md:mb-0;
 }
 
+.activeMenu {
+    @apply text-red-900 underline;
+}
 @tailwind components;
 @tailwind utilities;

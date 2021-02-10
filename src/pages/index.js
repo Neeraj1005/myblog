@@ -8,7 +8,7 @@ import LatestPost from "../components/latest-posts"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="MyApp" />
+    <SEO title="Home" />
     <BasicIntro />
     <LatestPost />
     <ProjectSection />
