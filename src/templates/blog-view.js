@@ -19,10 +19,11 @@ export default function BlogViewTemplate({ data }) {
           </Link>
         </p>
         <div class="max-w-3xl mx-auto">
-          <p
+          {/* <p
             className="mt-2 text-justify text-gray-700"
             dangerouslySetInnerHTML={{ __html: post.html }}
-          />
+          /> */}
+          {post.html}
         </div>
       </article>
     </Layout>
