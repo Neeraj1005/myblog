@@ -8,35 +8,35 @@ profile_url: "https://unavatar.now.sh/github/Neeraj1005?fallback=https://s3.amaz
 
 In this article, I describe the quick way to install your first gatsby project.
 
-**Basic Requirements**
+### Basic Requirements
 
 > Make sure that you already installed the [Node.js]('https://nodejs.org/en/') latest version in your system. If not then download it first
 
-**Gatsby Install in window**
+### Gatsby Install in window
 
-- [X] First Open your terminal (gitbash, cmd, cmder etc...) which you're using for your project.
+- [1] First Open your terminal (gitbash, cmd, cmder etc...) which you're using for your project.
 
-- [X] Then run the `gatsby-cli` command in your terminal.
+- [2] Then run the `gatsby-cli` command in your terminal.
 ```
 npm install -g gatsby-cli
 ```
 *This command is used first time in your system for gatsby installation*.
 
-- [X] Then run simple command 
+- [3] Then run simple command 
 ```
 gatsby new YourProjectName
 ```
 
-- [X] chage your working directory running change directory command: 
+- [4] chage your working directory running change directory command: 
 ```
 cd YourProjectName
 ```
 
-- [X] Then run `gatsby` command
+- [5] Then run `gatsby` command
 
 ```
 gatsby develop OR npm run develop
 ```
 
-- [X] Finally you installed your First gatsby project.
+- [6] Finally you installed your First gatsby project.
 >***Note***: The CLI command is used for first time to install the gatsby cli. If you want to install gatsby project second time just go through `gatsby new ProjectName` 

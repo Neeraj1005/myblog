@@ -8,7 +8,7 @@ profile_url: "https://unavatar.now.sh/github/Neeraj1005?fallback=https://s3.amaz
 
 Using `Staticquery` you don't have to pass data every time. And you can easily use your component to pages.
 
->For more about StaticQuery visit this [link](https://www.gatsbyjs.com/docs/how-to/querying-data/static-query/)
+> For more about StaticQuery visit this [link](https://www.gatsbyjs.com/docs/how-to/querying-data/static-query/)
 
 How I did use this staticquery method in my this portfolio project. As you can see in my project there is lates post section. For this I have created a `latest-posts` componet where I fetched Graphql-query.
 

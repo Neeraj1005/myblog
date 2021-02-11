@@ -11,8 +11,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: `${__dirname}/src/pages`,
+        name: "myblogs",
+        path: `${__dirname}/myblogs`,
       },
     },
     {
@@ -24,6 +24,23 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                "heading[depth=1]": "title",
+                "heading[depth=2]": "subtitle",
+                paragraph: "para",
+              }
+            }
+          }
+        ]
+      }
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
