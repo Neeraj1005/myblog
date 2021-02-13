@@ -13,7 +13,7 @@ const Menu = ({ siteTitle }) => (
           <Link
             to="/about/"
             className="navSubLinkButton"
-            activeClassName="activeMenu"
+            activeClassName="activeNavLink"
           >
             {`About`}
           </Link>
@@ -21,7 +21,7 @@ const Menu = ({ siteTitle }) => (
           <Link
             to="/page-2/"
             className="navSubLinkButton"
-            activeClassName="activeMenu"
+            activeClassName="activeNavLink"
           >
             {`Contact`}
           </Link>
@@ -29,7 +29,7 @@ const Menu = ({ siteTitle }) => (
           <Link
             to="/blog/"
             className="navSubLinkButton"
-            activeClassName="activeMenu"
+            activeClassName="activeNavLink"
           >
             {`Blog`}
           </Link>
